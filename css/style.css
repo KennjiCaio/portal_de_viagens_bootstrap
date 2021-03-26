@@ -1,0 +1,77 @@
+:root {
+    --white: #ffffff;
+    --nav-color: rgba(45, 62, 80, 255);
+    --container-nave-color: rgba(27, 188, 155, 255);
+    --title-form-color: rgba(45, 62, 80, 255);
+    --form-text-color: rgba(170, 170, 170, 255);
+}
+
+/* #HEADER */
+
+#logo {
+    cursor: pointer;
+    color: var(--white);
+    font-size: 1.7rem;
+}
+
+@media screen and (max-width: 760px) {
+    #logo {
+        font-size: 1.2rem !important;
+    }
+}
+
+nav {
+    background-color: var(--nav-color);
+}
+
+ul li a {
+    color: #ffffff !important;
+}
+
+/* MAIN */
+
+/* CONTAINER NAVE */
+
+.container-nave {
+    background-color: var(--container-nave-color);
+    
+}
+
+#title-text-navem {
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+#text-navem {
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+/* CONTAINER FORM */
+
+#title-form {
+    color: var(--title-form-color);
+    font-size: 2.5rem;
+}
+
+.form {
+    color: var(--form-text-color);
+    font-weight: 600;
+}
+
+.input-text:focus {
+    outline: none;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    border-bottom: 1.7px solid rgba(230, 230, 230, 255);
+    font-size: 1rem;
+}
+
+.btn-success {
+    background-color: rgba(27, 188, 155, 255) !important;
+    color: #ffffff;   
+}
